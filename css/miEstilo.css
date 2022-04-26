@@ -1,0 +1,109 @@
+/* Header */
+
+#header {
+  text-align: center;
+  padding: 4em 0 4em 0;
+}
+#header h1 {
+  color: white;
+  font-size: 38px;
+  text-align: center;
+}
+#header h2 {
+  color: rgb(40, 40, 211);
+  font-size: 26px;
+  padding: 1px 100px 30px;
+}
+#header .avatar {
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0 0 2em 0;
+  padding: 0.5em;
+  border: solid 1px rgba(125, 112, 248, 0.103);
+  background-color: rgba(72, 62, 207, 0.103);
+ }
+   #header .avatar img {
+      border-radius: 100%;
+      display: block;
+      width: 12em;
+    }
+#header i{
+  color: rgb(40, 40, 211);
+}
+#header i.transp:hover{
+  color: aquamarine;
+}
+body {
+    background-image: url(azul10.jpg);
+}
+.avatar2 {
+  border-radius: 15%;
+  display: inline-block;
+  /*margin: 0 7em 0 0;*/
+  padding: 0.5em;
+  border: solid 1px rgba(125, 112, 248, 0.103);
+  background-color: rgba(72, 62, 207, 0.103);
+ }
+.avatar2 img {
+  border-radius: 15%;
+  display: block;
+  width: 12em;
+}
+ul.navega li {
+  display: inline;
+  padding-left:3px;
+  padding-right:3px;
+}
+
+.a1 {
+  text-decoration: none;
+  color: rgb(40, 40, 211);
+}
+
+.a1:hover h3 {
+  color:aquamarine;
+}
+
+h3 {
+  text-decoration: none;
+  color: rgb(40, 40, 211);
+}
+
+h3:hover{
+  color:aquamarine;
+}
+
+/* footer */
+#footer.div {
+  display: none;
+}
+.contact {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3 );
+  display: inline-block;
+}
+.contact > * {
+  padding: 1em;
+}
+h4 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+h5 {
+  margin: 0 0em 0 0;
+  color:white;
+  font-size: 18px;
+}
+#email{
+  margin: 0 0 0 0.5em;
+}
+.footer-style {
+    padding-top: 50px;
+}
+footer {
+  color: white;
+}
+
+
+
+
